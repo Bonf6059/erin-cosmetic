@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<Defs>
+  <GeneDef ParentName="GeneHeadboneBase" Name="ERN_HornBase" Abstract="True">
+    <description>Carriers of this gene have demon-like horns.</description>
+    <displayCategory>ERN_CosmeticGenes</displayCategory>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_BillieHorns</defName>
+    <label>billie horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BillieHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/BillieHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_BlitzoHorns</defName>
+    <label>blitzo horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BlitzoHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/BlitzoHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_CurvedHorns</defName>
+    <label>curved horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/CurvedHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/CurvedHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_FaunHorns</defName>
+    <label>faun horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/FaunHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/FaunHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_MaleficentHorns</defName>
+    <label>maleficent horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/MaleficentHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/MaleficentHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_HornBase">
+    <defName>ERN_SpikeHorns</defName>
+    <label>spike horns</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/SpikeHorns</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Horns/SpikeHorns</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <layer>10</layer>
+            <offset>(0, 0, 0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+</Defs>

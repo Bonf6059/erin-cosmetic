@@ -1,0 +1,186 @@
+<?xml version="1.0" ?>
+<Defs>
+
+  <GeneDef ParentName="GeneEarsBase" Name="ERN_FaceStuffBase" Abstract="True">
+    <description>Carriers of this gene have demon-like horns.</description>
+    <displayCategory>ERN_CosmeticGenes</displayCategory>    
+    <exclusionTags>
+		  <li>Ears</li>
+	  </exclusionTags>
+  </GeneDef>
+  
+  <GeneDef ParentName="ERN_FaceStuffBase">
+    <defName>ERN_AxolotlFloof</defName>
+    <label>axolotl floof</label>
+    <description>Carriers of this gene grow axolotl-like frills on the side of their face.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlFloof</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Skin</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>true</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/FaceStuff/AxolotlFloof</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_FaceStuffBase">
+    <defName>ERN_AxolotlSuperFloofSingle</defName>
+    <label>axolotl floof - super A</label>
+    <description>Carriers of this gene grow fluffy axolotl-like frills on the side of their face.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlSuperFloofSingle</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Skin</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>true</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/FaceStuff/AxolotlSuperFloofSingle</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_FaceStuffBase">
+    <defName>ERN_AxolotlSuperFloofDuo</defName>
+    <label>axolotl floof - super B</label>
+    <description>Carriers of this gene grow fluffy axolotl-like frills on the side of their face.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlSuperFloofDuo</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Skin</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>true</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/FaceStuff/AxolotlSuperFloofDuo</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_FaceStuffBase">
+    <defName>ERN_AxolotlSuperFloofTri</defName>
+    <label>axolotl floof - super C</label>
+    <description>Carriers of this gene grow fluffy axolotl-like frills on the side of their face.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlSuperFloofTri</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Skin</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>true</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/FaceStuff/AxolotlSuperFloofTri</texPath>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_FaceStuffBase">
+    <defName>ERN_ElfEars</defName>
+    <label>elf ears</label>
+    <description>Carriers of this gene grow pointed elvish ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/ElfEars</iconPath>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <parentTagDef>Head</parentTagDef>
+        <colorType>Skin</colorType>
+        <useRottenColor>true</useRottenColor>
+        <useSkinShader>true</useSkinShader>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/FaceStuff/ElfEars</texPath>
+        <drawSize>(0.85,0.85)</drawSize>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, -0.05)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, -0.05)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0, 0, -0.05)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+</Defs>

@@ -1,0 +1,497 @@
+<?xml version="1.0" ?>
+<Defs>
+  <GeneDef ParentName="GeneEarsBase" Name="ERN_CosmeticEars" Abstract="True">
+    <description>Carriers of this gene have animal-like ears.</description>
+    <displayCategory>ERN_CosmeticGenes</displayCategory>
+    <exclusionTags>
+		  <li>Ears</li>
+	  </exclusionTags>
+    <symbolPack>
+    </symbolPack>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <applySkinColorWithGenes>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrobearFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrocatFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrocowFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrodeerFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrodrakeSkin</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrofoxFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrogoatFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrogriffFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrohorseFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrohyenaFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthropandaFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrorabbitFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrosharkSkin</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrowahFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrowolfFur</li>
+          <li MayRequire="Erin.Auraeyl">ERN_AuraeylBody</li>
+        </applySkinColorWithGenes>
+      </li>
+    </modExtensions>  
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Bat</defName>
+    <label>bat ears</label>
+    <description>Carriers of this gene have bat-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BatEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/BatEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Beat</defName>
+    <label>bear ears</label>
+    <description>Carriers of this gene have bear-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BearEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/BearEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Bunny</defName>
+    <label>bunny ears</label>
+    <description>Carriers of this gene have bbunny-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BunnyEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/BunnyEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Bunnyflop</defName>
+    <label>bunny ears flopped</label>
+    <description>Carriers of this gene have bunny-like ears with one folded.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BunnyEarsFlop</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/BunnyEarsFlop</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Chinchilla</defName>
+    <label>chinchilla ears</label>
+    <description>Carriers of this gene have chinchilla-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/ChinchillaEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/ChinchillaEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Ferret</defName>
+    <label>ferret ears</label>
+    <description>Carriers of this gene have ferret-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/FerretEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/FerretEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Goat</defName>
+    <label>goat ears</label>
+    <description>Carriers of this gene have goat-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/GoatEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/GoatEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Horse</defName>
+    <label>horse ears</label>
+    <description>Carriers of this gene have horse-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/HorseEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/HorseEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Mouse</defName>
+    <label>mouse ears</label>
+    <description>Carriers of this gene have mouse-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/MouseEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/MouseEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Opossum</defName>
+    <label>opossum ears</label>
+    <description>Carriers of this gene have opossum-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/PossumEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/OpossumEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_Raccoon</defName>
+    <label>raccoon ears</label>
+    <description>Carriers of this gene have raccoon-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/CoonEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/RacoonEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_RedPanda</defName>
+    <label>red panda ears</label>
+    <description>Carriers of this gene have red panda-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/RedPandaEars</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/RedPandaEars</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_MouseLarge</defName>
+    <label>large mouse ears</label>
+    <description>Carriers of this gene have large mouse-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/MouseEarsLarge</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/MouseEarsLarge</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticEars">
+    <defName>ERN_Ears_MouseLargeNicked</defName>
+    <label>large mouse ears (nicked)</label>
+    <description>Carriers of this gene have large mouse-like ears.</description>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/MouseEarsLargeNicked</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Ears/MouseEarsLargeNicked</texPath>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+          <defaultData>
+            <layer>80</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, -0.0002, 0)</offset>
+            <layer>-5</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0, 0, 0)</offset>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+</Defs>

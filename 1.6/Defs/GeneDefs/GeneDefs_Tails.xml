@@ -1,0 +1,572 @@
+<?xml version="1.0" ?>
+<Defs>
+  <GeneDef ParentName="GeneTailBase" Name="ERN_CosmeticTails" Abstract="True">
+    <description>Carriers of this gene grow an animal-like tail.</description>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <displayOrderInCategory>1000</displayOrderInCategory>
+	<displayCategory>ERN_CosmeticGenes</displayCategory>
+	<exclusionTags>
+		<li>Tail</li>
+	</exclusionTags>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <applySkinColorWithGenes>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrobearFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrocatFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrocowFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrodeerFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrodrakeSkin</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrofoxFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrogoatFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrogriffFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrohorseFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrohyenaFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthropandaFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrorabbitFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrosharkSkin</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrowahFur</li>
+          <li MayRequire="ATK.Anthrosonae">ATK_AnthrowolfFur</li>
+          <li MayRequire="Erin.Auraeyl">ERN_AuraeylBody</li>
+        </applySkinColorWithGenes>
+      </li>
+    </modExtensions>       
+  </GeneDef>
+  
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Axolotl</defName>
+    <label>axolotl tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/AxolotlTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_AxolotlFloofy</defName>
+    <label>fluffy axolotl tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/AxolotlTailFloofy</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/AxolotlTailFloofy</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Bunny</defName>
+    <label>bunny tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/BunnyTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/BunnyTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Raccoon</defName>
+    <label>raccoon tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/CoonTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/CoonTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Ferret</defName>
+    <label>ferret tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/FerretTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/FerretTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Goat</defName>
+    <label>goat tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/GoatTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/GoatTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Horse</defName>
+    <label>horse tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/HorseTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/HorseTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Lizard</defName>
+    <label>lizard tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/LizardTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/LizardTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Orca</defName>
+    <label>orca tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/OrcaTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/OrcaTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Mouse</defName>
+    <label>mouse tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/RattyTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+		<shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/RattyTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_RedPanda</defName>
+    <label>red panda tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/RedPandaTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/RedPandaTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Skunk</defName>
+    <label>skunk tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/SkunkTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+		<shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/SkunkTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="ERN_CosmeticTails">
+    <defName>ERN_Tail_Squirrel</defName>
+    <label>squirrel tail</label>
+    <iconPath>UI/Icons/Genes/ERN_Cosmetic/SquirrelTail</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <parentTagDef>Body</parentTagDef>
+        <texPath>Things/Pawn/ERN_CosmeticGenes/Tails/SquirrelTail</texPath>
+        <drawSize>(0.9,0.9)</drawSize>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Hair</colorType>
+        <drawData>
+			<scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+			<bodyTypeScales>
+				<Female>1</Female>
+				<Male>1</Male>
+				<Child>1.5</Child>
+				<Baby>1.5</Baby>
+			</bodyTypeScales>
+			<defaultData>
+				<layer>-2</layer>
+			</defaultData>
+			<dataNorth>
+				<offset>(0.02, 0.02, -0.8)</offset>
+				<layer>90</layer>
+			</dataNorth>
+			<dataSouth>
+				<offset>(-0.2, 0, -0.3)</offset>
+			</dataSouth>
+			<dataEast>
+				<offset>(-0.72, 0, -0.35)</offset>
+			</dataEast>
+			<dataWest>
+				<offset>(0.72, 0, -0.35)</offset>
+			</dataWest>
+		</drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  
+</Defs>
